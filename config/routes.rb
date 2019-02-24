@@ -6,5 +6,7 @@ Rails.application.routes.draw do
   # namespace :api do
   #   get "/photos" => "photos#index"
   # end
-  get '/hello_url' => 'api/expample_pages#hello_method'
+  get '/movies_url' => 'api/example_pages#movie_method'
+  get '/blog_url' => 'api/example_pages#blog_method'
+  get '/knuckle_url' => 'api/example_pages#knuckle_method'
 end
